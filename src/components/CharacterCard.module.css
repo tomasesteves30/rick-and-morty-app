@@ -1,0 +1,37 @@
+.card {
+    padding: 2.5rem;
+    height: 100%;
+    background-color: var(--card-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid var(--green);
+    border-radius: .5rem;
+    transition: background-color .3s, transform .3s;
+}
+
+.card:hover {
+    background-color: var(--green);
+}
+
+
+.image {
+    width: 80%;
+    padding-bottom: 80%;
+    margin-bottom: 2.5rem;
+
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem .2rem var(--background-color);
+
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    font-family: 'Pangolin', cursive;
+    font-size: 2rem;
+}
